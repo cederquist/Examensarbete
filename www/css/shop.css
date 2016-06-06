@@ -1,0 +1,156 @@
+.shopping-cart-expandable .shopping-cart-body {
+	display: block;
+	width: 10em;
+	height: 6em;
+}
+
+ul#shopping-cart {
+	width: 350x;
+	min-height: 150px;
+	padding: 10px;
+}
+
+ul#shopping-cart.dropdown-menu li.cart-item {
+	font-size: 15px;
+}
+
+button.btn.btn-green.dropdown-toggle.shop-toggle.focus, button.btn.btn-green.dropdown-toggle.shop-toggle:focus, button.btn.btn-green.dropdown-toggle.shop-toggle:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.empty-cart {
+	padding-top: 29px;
+	text-align: center;
+	height: 82px;
+	width: 335px;
+	border: 1px dashed #e6e6e6;
+	margin-bottom: 5px;
+}
+
+.cart-item {
+	border:1px solid #e6e6e6;
+	padding: 10px 10px 10px 10px;
+	cursor: pointer;
+	font-size: 0;
+	margin-bottom: 5px;
+}
+
+.cart-item-left-container {
+	width: 21%;
+	display: inline-block;
+	vertical-align: top;
+}
+
+.cart-item-right-container {
+	width: 75%;
+	display: inline-block;
+	padding-top: 0.6em;
+}
+
+.close-shopping-cart {
+	display: block;
+	float: left;
+	font-size: 80%;
+	position: absolute;
+	right: 0px;
+	top: -1px;
+	color: #444444;
+	cursor: pointer;
+}
+
+.cart-item-count-container {
+	display: inline-block;
+}
+
+.cart-item-count{
+	display: inline-block;
+}
+
+.cart-item-price {
+	font-size: 0.8em;
+	padding: 0.2em 0;
+	margin-left: 0.2em;
+	display: block;
+}
+
+ul#shopping-cart.dropdown-menu .cart-item div {
+	display: inline-block;
+}
+
+.glyphicon {
+	top: -1px !important;
+}
+
+.cart-item span.remove {
+	margin: 0.9em;
+}
+
+/* Checkout */
+.empty-checkout {
+	margin-top: 1em;
+}
+
+.checkout-item {
+	background-color: #eee;
+	border: 1px solid #e5e5e5;
+	margin-top: 2px;
+	padding: 0.5em 1em;
+	cursor: pointer;
+	width: 100%;
+	font-size: 0;
+}
+
+.checkout-item img {
+	margin: 0.5em;
+}
+
+.item-left {
+	display: inline-block;
+	width: 15%;
+	font-size: 15pt;
+}
+
+.item-middle {
+	display: inline-block;
+	width: 70%;
+	vertical-align: middle;
+	font-size: 15pt;
+}
+
+.item-right {
+	display: inline-block;
+	width: 15%;
+	text-align: center;
+	font-size: 15pt;
+}
+
+.divider {
+	background-color: #e5e5e5;
+	height: 1px;
+	overflow: hidden;
+}
+
+.panel-heading{
+	background-color:#f4f4f4 !important;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+	color:#000;
+	/*transition:.2s ease;
+	-moz-transition:.2s ease;
+	-o-transition:.2s ease;
+	-webkit-transition:.2s ease;*/
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+	color:#000;
+}
+
+.panel-default > .panel-heading {
+	border-color:#e5e5e5;
+}
+
+.btn-group.open .dropdown-toggle {
+	box-shadow: none !important;
+}

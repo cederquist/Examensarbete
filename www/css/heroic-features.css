@@ -1,0 +1,433 @@
+/*!
+ * Start Bootstrap - Heroic Features HTML Template (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+@font-face {
+	font-family: "Campton-Light";
+	src: url(../fonts/Campton-Light.ttf);
+ }
+
+ @font-face {
+	font-family: "Campton-Medium";
+	src: url(../fonts/Campton-Medium.ttf);
+ }
+
+*{
+	font-family: "Campton-Light";
+}
+
+.navbar-inverse{
+	background-color:#171717;
+	border:none;
+	}
+
+a:active,a:hover {
+    outline:0 !important;
+}
+
+
+
+.col-lg-12{
+
+	color:#313132;
+}
+
+h3 {
+	color:#000 !important;
+}
+
+.col-lg-12 p {
+		color:#313132;
+}
+
+.caption p {
+	color:#313132;
+}
+
+.cart-total {
+	color:#313132;
+}
+
+.panel-heading {
+	color:#313132 !important;
+}
+
+.form-control {
+	color:#313132 !important;
+
+}
+
+.checkbox {
+	color:#313132 !important;
+}
+
+.col-sm-2 {
+	color:#000 !important;
+}
+
+
+.hero-spacer {
+    margin-top: 50px;
+}
+
+.hero-feature {
+    margin-bottom: 30px;
+}
+
+footer {
+		text-align: center;
+		border-top: 1px solid #e6e6e6;
+		padding: 39px 0px 30px 0px;
+		font-size: 13px;
+}
+
+ul.nav.nav-pills.pull-right li button.btn{
+    margin-top: 8px;
+    background-color: #959b72;
+    border: none;
+}
+
+/* Header and navbar */
+.header,
+.marketing,
+.footer {
+  margin-bottom: 30px;
+}
+
+.badge {
+    background-color: #222222 !important;
+    color: #fff !important;
+}
+
+html body div.container div.header nav.nav.navbar-default div#bs-example-navbar-collapse-8.collapse.navbar-collapse{
+    background-color: #FCFEF9;
+}
+ul.nav.nav-pills.pull-right li button.btn{
+    margin-top: 8px;
+    background-color: #959b72;
+    border: none;
+}
+.btn-green{
+    background-color: #959b72;
+    color: white;
+    display: inline-block;
+}
+.btn-green.focus, .btn-green:focus, .btn-green:hover{
+    color: #fff !important;
+    text-decoration: underline;
+}
+.btn-primary.shop-toggle{
+    margin-top: 0.62em;
+}
+.badge {
+    background-color: #d2d2d2;
+    color: #fff;
+}
+.thumbnail{
+	padding: 0px;
+  border-radius: 1px;
+  border:none;
+}
+
+.margin-reset{
+    margin: 0 !important;
+}
+
+#addToCartBtn{
+    color: #fff;
+}
+/* Supporting marketing content */
+.marketing {
+  margin: 40px 0;
+}
+.marketing p + h4 {
+  margin-top: 28px;
+}
+/* Thumbnails */
+
+.thumbnail {
+	margin-bottom: 70px;
+}
+
+a.thumbnail.active, a.thumbnail:focus, a.thumbnail:hover {
+    border-color: #959B72;
+}
+
+/*------index-----------------*/
+
+.thumb-portrait{
+	max-height: 155px;
+	border-radius: 6px;
+	padding: 4px;
+}
+.thumb-landscape{
+	max-width: 130px;
+	border-radius: 6px;
+	padding: 4px;
+}
+.border{border: 1px solid #999; border-radius: 5px;}
+.item{
+	background-color: #eee;
+	border-radius: 7px;
+	padding: 10px;
+	margin-top: 30px;
+}
+.item:nth-child(1){
+	margin-top: 0;
+}
+.hide{
+	display: none;
+}
+/* Product styles */
+.row.categories{
+	margin: 1.5em -15px;
+}
+.row.categories h4{
+	color: #777;
+	font-family: Roboto, Sans-serif;
+}
+.row{
+    font-family: Roboto, Sans-serif;
+}
+.product{
+	height: 300px;
+	border: 1px solid rgb(223,223,223);
+}
+
+.price{
+	display: block;
+    left: 4px;
+    position: relative;
+    margin-top: -2.13em;
+    width: 5em;
+    background-color: #000;
+    color: #fff;
+    padding: 0.2em;
+}
+
+/* Custom page footer */
+.footer {
+  padding-top: 19px;
+  color: #777;
+  border-top: 1px solid #e5e5e5;
+  font-family: "Roboto",sans-serif;
+}
+
+/* Checkout page */
+#checkout-page{
+    font-family: "Roboto",sans-serif;
+}
+input.invalid{
+    border-radius: 1px;
+    box-shadow: 0 0 5px red;
+}
+a.tooltips > span {
+    position: relative;
+    display: block;
+}
+a.tooltips:hover {
+    text-decoration: none;
+    cursor: default;
+}
+a.tooltips > span {
+    padding: 0.5em 1em;
+    width:140px;
+    color: #FFF;
+    background: #45B39B;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+
+    top: 9px;
+}
+a.tooltips > span:after {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -8px;
+    width: 0; height: 0;
+    border-bottom: 8px solid #45B39B;
+    border-right: 8px solid transparent;
+    border-left: 8px solid transparent;
+}
+
+
+/* Side notes for calling out things
+-------------------------------------------------- */
+
+/* Base styles (regardless of theme) */
+.bs-callout {
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    border-color: #eee;
+    border-image: none;
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px 1px 1px 5px;
+    margin: 20px 0;
+    padding: 20px;
+}
+.bs-callout h4 {
+    margin-top: 0;
+}
+.bs-callout p:last-child {
+    margin-bottom: 0;
+}
+.bs-callout code,
+.bs-callout .highlight {
+    background-color: #fff;
+}
+
+/* Themes for different contexts */
+.bs-callout-danger {
+    background-color: #fcf2f2;
+    border-color: #dFb5b4;
+}
+.bs-callout-warning {
+    background-color: #fefbed;
+    border-color: #f1e7bc;
+}
+.bs-callout-info {
+    /*background-color: #f0f7fd;*/
+    /*border-left-color: #d0e3f0;*/
+    border-left-color: #959B72;
+}
+
+.jumbotron {
+	padding: 100px 0px 100px 0px;
+	background-image: url(../img/header2.jpg);
+	background-position: 65% 50%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	color: white;
+	margin: 0px 0px 65px 0px;
+	text-align: center;
+}
+
+.navbar {
+	margin-bottom: 0px;
+	border-radius: 0px;
+	min-height: 84px;
+	max-height: 84px;
+}
+
+.navbar-inverse {
+	background-color: #313132;
+}
+
+.navbar-brand {
+	color: #313132 !important;
+	font-size: 19px !important;
+	padding: 0px !important;
+	margin-top: 1.6em;
+	font-family: "Arial" !important;
+}
+
+.cart-button {
+	margin-top: 21px;
+	background:none;
+	text-decoration:none;
+	border:1px solid #45b39b !important;
+	padding: 10px 15px;
+	color:#45b39b;
+	transition:.2s ease;
+  -moz-transition:.2s ease;
+  -o-transition:.2s ease;
+  -webkit-transition:.2s ease;
+}
+
+.cart-button:hover {
+	color:#FFF;
+	background-color:#45b39b;
+}
+
+.cart-total {
+	display: inline-block;
+	padding-top: 2px;
+}
+
+.product-description {
+	margin: 0px;
+	font-size: 15px;
+	color: #313132;
+}
+
+.product-price {
+	margin: 6px auto 17px auto;
+	font-size: 16px;
+	font-family: "Campton-Medium";
+}
+
+.caption {
+	padding: 0px !important;
+	margin-top: 15px;
+}
+
+.page-title {
+	text-transform: uppercase;
+	font-family: "Campton-Medium";
+	font-size: 18px;
+	margin: 0px;
+	text-align: center;
+}
+
+hr {
+	border-top: 1px solid #e6e6e6;
+	margin-top: 12px !important;
+	margin-bottom: 30px !important;
+}
+
+.navbar-brand {
+	font-size: 21px;
+	text-transform: uppercase;
+	font-family:"Campton-Medium";
+}
+
+.standard-button {
+	margin-top:0.55em;
+	background:none;
+	text-decoration:none;
+	border:1px solid #45b39b !important;
+	padding: 10px 15px;
+	color:#45b39b;
+	transition:.2s ease;
+  -moz-transition:.2s ease;
+  -o-transition:.2s ease;
+  -webkit-transition:.2s ease;
+	outline: none !important;
+}
+
+.standard-button:hover {
+	color:#FFF;
+	background-color:#45b39b;
+}
+
+.jumbotron h2 {
+	font-size: 27px;
+	margin: 30px;
+}
+
+.dropdown-menu {
+	border-radius: 0px;
+	border: 1px solid #FFF;
+}
+
+.divider {
+	background-color: #e6e6e6 !important;
+}
+
+.navbar-brand {
+	color: #FFF !important;
+	line-height: 25px;
+}
+
+@media (min-width: 768px) {
+	.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+		margin-left: 0px !important;
+	}
+}
